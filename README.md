@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # Sunset Beach
 
+"Some sunsets are more beautiful when shared."
+
 Template #2 của Memora
 
 Theme:

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunset Beach - Memora</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Be+Vietnam+Pro:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="assets/video/beach.mp4" type="video/mp4" />
+  </video>
+
+  <div class="overlay"></div>
+
+  <main>
+    <section class="screen active" id="screen1">
+      <p class="line delay-1">Em bé à...</p>
+      <h1 class="line delay-2">Hôm nay anh muốn đưa em đi ngắm biển.</h1>
+      <button class="start-btn delay-3" id="startBtn">Bắt đầu hành trình 🌊</button>
+    </section>
+
+    <section class="screen" id="screen2">
+      <p class="line delay-1">Dù chúng ta không ở cạnh nhau...</p>
+      <h1 class="line delay-2">Anh vẫn muốn cùng em ngắm những khung cảnh đẹp nhất.</h1>
+      <button class="start-btn delay-3" id="nextBtn">Tiếp tục</button>
+    </section>
+  </main>
+
+  <audio id="wavesAudio" loop>
+    <source src="assets/audio/waves.mp3" type="audio/mpeg" />
+  </audio>
+
+  <audio id="pianoAudio" loop>
+    <source src="assets/audio/piano.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
